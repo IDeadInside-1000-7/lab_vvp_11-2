@@ -8,6 +8,11 @@ int main()
 	scanf("%i", &B);
 	printf("C = ");
 	scanf("%i", &C);
+	if (A == B && B == C)
+	{
+	    	summ = A + B;
+		printf("The sum of the largest numbers = %i", summ);
+	}
 	if (A == B && A > C)
 	{
 		summ = A + B;
